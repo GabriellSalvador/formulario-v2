@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Formulário para o Carlinhos</h1>
+    <form action="https://formsubmit.co/g.salvador@acad.ifma.edu.br" method="POST">
+        <label for="name"><b> Digite seu nome </b></label>
+        <input type="text" name="name" class="form-control" placeholder="coloque seu nome aqui" required>
+        <br>
+        <label for="name"><b> Digite seu email </b></label>
+        <input type="email" name="email" class="form-control" placeholder="coloque seu email aqui" required >
+
+        <br>
+
+        <h4>Acesso a computador</h4>
+        <input type="checkbox" id="casa" name="internet" value="casa">
+        <label for="celular"><b>Casa</b></label>
+        <input type="checkbox" id="biblioteca" name="internet" value="biblioteca">
+        <label for="banda larga"><b>Biblioteca</b></label>
+        <input type="checkbox" id="other" name="internet" value="other">
+        <label for="other"><b>Outros</b></label>
+
+        <br>
+        <h4>Bairro que você mora</h4>
+        <select name="localidade" id="local">
+            <option value="vila-ildemar">Vila Ildemar</option>
+            <option value="centro">Centro</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <br><br>
+        <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Digite seu texto aqui!"></textarea>
+
+        <br><br>
+        <input type="submit" name="enviar" id="enviar">
+
+        <input type="hidden" name="_subject" value="Novo Contato!">
+        <input type="text" name="_honey" value="style">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+</html>
