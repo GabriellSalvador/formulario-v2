@@ -1,23 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
+    margin: 10%;
+    padding: 0%;
+    background-image: url(wpp-form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 form {
-    max-width: 600px;
-    margin: 20px auto;
-    background: #fff;
+    margin-left: 6%;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    justify-content: center;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
+
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
+    margin-left: -60%;
     margin-bottom: 30px;
 }
 
@@ -61,7 +67,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #4e7fd8;
     color: white;
     padding: 14px 20px;
     border: none;
@@ -73,7 +79,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #3764b8;
     transform: scale(1.03);
 }
 
@@ -89,6 +95,6 @@ h4 {
 }
 
 label:hover {
-    color: #4CAF50;
+    color: #2b5cb8;
     cursor: pointer;
 }
